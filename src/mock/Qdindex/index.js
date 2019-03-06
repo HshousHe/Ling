@@ -1,0 +1,42 @@
+export default function(url,methd){
+    const Mock=require('mockjs');
+    Mock.mock(url,methd,{
+         Dh:[
+             {
+                 id:"1",
+                 name:"show1",
+                 text:"网站首页"
+             },
+             {
+                id:"2",
+                name:"show2",
+                text:"小米专区" 
+             },
+             {
+                id:"3",
+                name:"show2",
+                text:"魅族专区" 
+             },
+             {
+                id:"4",
+                name:"show2",
+                text:"锤子专区" 
+             },
+             {
+                id:"5",
+                name:"show2",
+                text:"苹果专区" 
+             }
+             ,{
+                id:"6",
+                name:"show2",
+                text:"新闻资讯",
+             },
+             {
+                id:"7",
+                name:"show2",
+                text:"关于我们",
+             }
+         ]
+    })
+}
