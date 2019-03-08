@@ -54,7 +54,7 @@
                     </el-form-item>
                   </el-form> 
                 <div class="Dl">
-                     <el-button type="primary">主要按钮</el-button>
+                     <el-button type="primary">注册</el-button>
                 </div>
                 </div>
             </el-col>
